@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="logo.jpeg">
+    <title>Donate - Shreesurya Pushpa Foundation</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="top-header">
+            <div class="container">
+                <div class="logo">
+                    <img src="logo.jpeg" alt="Shree Surya Foundation Logo" class="logo-img">
+                    <div class="logo-text">
+                        <h1>Shreesurya Pushpa Foundation</h1>
+                        <span>Empowering Lives, Enriching Communities</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <nav class="main-nav">
+            <div class="navbar">
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="index.html#about">About</a></li>
+                    <li><a href="index.html#approval-letters">Approvals</a></li>
+                    <li><a href="index.html#programs">Programs</a></li>
+                    <li><a href="index.html#impact">Impact</a></li>
+                    <li><a href="index.html#gallery">Gallery</a></li>
+                    <li><a href="index.html#contact">Contact</a></li>
+                    <li><a href="volunteer.html">Volunteer</a></li>
+                    <li><a href="donate.html" class="donate-btn active">Donate</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <section class="donate-section">
+        <div class="container">
+            <h2 class="section-title">Make a Contribution</h2>
+            <p class="section-desc">Your support helps us create positive change in our community</p>
+
+            <div class="donation-options">
+                <div class="contribution-info">
+                    <h3>Direct Contribution Information</h3>
+                    <div class="info-box">
+                        <p><strong>Visit Us:</strong><br>
+                        Sarju Bagicha Masanganj<br>
+                        Bilaspur, Chhattisgarh 495001</p>
+                        
+                        <p><strong>Office Hours:</strong><br>
+                        Monday to Saturday: 10:00 AM - 6:00 PM</p>
+                        
+                        <p><strong>Contact Person:</strong><br>
+                        Phone: +91 94061 30259<br>
+                        Email: info@shreesurya.org</p>
+                    </div>
+
+                    <div class="contribution-guidelines">
+                        <h4>Guidelines for Cash Contributions:</h4>
+                        <ul>
+                            <li>Please bring a valid ID proof for documentation purposes</li>
+                            <li>Contributions above ₹2000 should preferably be made by check</li>
+                            <li>A receipt will be provided for your contribution</li>
+                            <li>All donations are eligible for tax benefits under 80G</li>
+                        </ul>
+                    </div>
+
+                    <div class="tax-benefit-info">
+                        <h4>Tax Benefits</h4>
+                        <p>All donations to Shreesurya Pushpa Foundation are eligible for tax deduction under Section 80G of the Income Tax Act.</p>
+                    </div>
+                </div>
+
+                <div class="contact-preference">
+                    <h3>Schedule a Visit</h3>
+                    <form id="visitForm" action="process_visit.php" method="POST">
+                        <div class="form-group">
+                            <label for="name">Your Name</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Your Email</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Phone Number</label>
+                            <input type="tel" id="phone" name="phone" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="preferred_date">Preferred Visit Date</label>
+                            <input type="date" id="preferred_date" name="preferred_date" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="preferred_time">Preferred Time</label>
+                            <select id="preferred_time" name="preferred_time" required>
+                                <option value="">Select Time</option>
+                                <option value="10:00 AM">10:00 AM</option>
+                                <option value="11:00 AM">11:00 AM</option>
+                                <option value="12:00 PM">12:00 PM</option>
+                                <option value="2:00 PM">2:00 PM</option>
+                                <option value="3:00 PM">3:00 PM</option>
+                                <option value="4:00 PM">4:00 PM</option>
+                                <option value="5:00 PM">5:00 PM</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <button type="submit" class="submit-btn">Schedule Visit</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-column">
+            <h3>Shreesurya Pushpa Foundation</h3>
+            <p>Empowering Lives, Enriching Communities through sustainable development initiatives. Together, we can make a difference in the lives of those who need it most.</p>
+            <div class="social-icons">
+              <a href="https://facebook.com/your-page" title="Facebook" class="social-icon">
+                <i class="fab fa-facebook-f"></i>
+              </a>
+              <a href="https://twitter.com/your-handle" title="Twitter" class="social-icon">
+                <i class="fab fa-twitter"></i>
+              </a>
+              <a href="https://instagram.com/your-profile" title="Instagram" class="social-icon">
+                <i class="fab fa-instagram"></i>
+              </a>
+              <a href="https://linkedin.com/company/your-company" title="LinkedIn" class="social-icon">
+                <i class="fab fa-linkedin-in"></i>
+              </a>
+              <a href="https://youtube.com/your-channel" title="YouTube" class="social-icon">
+                <i class="fab fa-youtube"></i>
+              </a>
+            </div>
+          </div>
+          
+          <div class="footer-column">
+            <h3>Quick Links</h3>
+            <ul class="footer-links">
+              <li><a href="#home">Home</a></li>
+              <li><a href="#about">About Us</a></li>
+              <li><a href="#programs">Our Programs</a></li>
+              <li><a href="#impact">Impact</a></li>
+              <li><a href="#gallery">Gallery</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </div>
+          
+          <div class="footer-column">
+            <h3>Our Programs</h3>
+            <ul class="footer-links">
+              <li><a href="#">Agriculture & Farming</a></li>
+              <li><a href="#">Education & Literacy</a></li>
+              <li><a href="#">Healthcare Initiatives</a></li>
+              <li><a href="#">Environmental Projects</a></li>
+              <li><a href="#">Women Empowerment</a></li>
+              <li><a href="#">Skill Development</a></li>
+            </ul>
+          </div>
+          
+          <div class="footer-column">
+            <h3>Contact Info</h3>
+            <ul class="footer-links">
+              <li>📍 Sarju Bagicha Masanganj, Bilaspur, Chhattisgarh 495001</li>
+              <li>📞 +91 94061 30259</li>
+              <li>✉️ info@shreesurya.org</li>
+            </ul>
+          </div>
+        </div>
+        
+        <div class="copyright">
+          <p>&copy; 2025 Shreesurya Pushpa Foundation. All Rights Reserved. | Designed with 💖 for social impact</p>
+        </div>
+      </div>
+    </footer>
+    <script src="script.js"></script>
+    
+</body>
+</html>
