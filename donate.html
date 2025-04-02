@@ -43,74 +43,98 @@
             <h2 class="section-title">Make a Contribution</h2>
             <p class="section-desc">Your support helps us create positive change in our community</p>
 
-            <div class="donation-options">
-                <div class="contribution-info">
-                    <h3>Direct Contribution Information</h3>
-                    <div class="info-box">
-                        <p><strong>Visit Us:</strong><br>
-                        Sarju Bagicha Masanganj<br>
-                        Bilaspur, Chhattisgarh 495001</p>
-                        
-                        <p><strong>Office Hours:</strong><br>
-                        Monday to Saturday: 10:00 AM - 6:00 PM</p>
-                        
-                        <p><strong>Contact Person:</strong><br>
-                        Phone: +91 94061 30259<br>
-                        Email: info@shreesurya.org</p>
-                    </div>
+            <div class="donation-container">
+                <div class="donation-left">
+                    <div class="info-panel">
+                        <h3>Direct Contribution Information</h3>
+                        <div class="info-box">
+                            <div class="info-item">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <div>
+                                    <strong>Visit Us:</strong>
+                                    <p>Sarju Bagicha Masanganj<br>Bilaspur, Chhattisgarh 495001</p>
+                                </div>
+                            </div>
+                            
+                            <div class="info-item">
+                                <i class="far fa-clock"></i>
+                                <div>
+                                    <strong>Office Hours:</strong>
+                                    <p>Monday to Saturday: 10:00 AM - 6:00 PM</p>
+                                </div>
+                            </div>
+                            
+                            <div class="info-item">
+                                <i class="fas fa-user"></i>
+                                <div>
+                                    <strong>Contact Person:</strong>
+                                    <p>Phone: +91 94061 30259<br>Email: info@shreesurya.org</p>
+                                </div>
+                            </div>
+                        </div>
 
-                    <div class="contribution-guidelines">
-                        <h4>Guidelines for Cash Contributions:</h4>
-                        <ul>
-                            <li>Please bring a valid ID proof for documentation purposes</li>
-                            <li>Contributions above ₹2000 should preferably be made by check</li>
-                            <li>A receipt will be provided for your contribution</li>
-                            <li>All donations are eligible for tax benefits under 80G</li>
-                        </ul>
-                    </div>
+                        <div class="contribution-guidelines">
+                            <h4><i class="fas fa-clipboard-list"></i> Guidelines for Cash Contributions:</h4>
+                            <ul>
+                                <li><i class="fas fa-check"></i> Please bring a valid ID proof for documentation purposes</li>
+                                <li><i class="fas fa-check"></i> Contributions above ₹2000 should preferably be made by check</li>
+                                <li><i class="fas fa-check"></i> A receipt will be provided for your contribution</li>
+                                <li><i class="fas fa-check"></i> All donations are eligible for tax benefits under 80G</li>
+                            </ul>
+                        </div>
 
-                    <div class="tax-benefit-info">
-                        <h4>Tax Benefits</h4>
-                        <p>All donations to Shreesurya Pushpa Foundation are eligible for tax deduction under Section 80G of the Income Tax Act.</p>
+                        <div class="tax-benefit-info">
+                            <h4><i class="fas fa-hand-holding-usd"></i> Tax Benefits</h4>
+                            <p>All donations to Shreesurya Pushpa Foundation are eligible for tax deduction under Section 80G of the Income Tax Act.</p>
+                        </div>
                     </div>
                 </div>
 
-                <div class="contact-preference">
-                    <h3>Schedule a Visit</h3>
-                    <form id="visitForm" action="process_visit.php" method="POST">
-                        <div class="form-group">
-                            <label for="name">Your Name</label>
-                            <input type="text" id="name" name="name" required>
-                        </div>
-                        <div class="form-group">
-                            <label for="email">Your Email</label>
-                            <input type="email" id="email" name="email" required>
-                        </div>
-                        <div class="form-group">
-                            <label for="phone">Phone Number</label>
-                            <input type="tel" id="phone" name="phone" required>
-                        </div>
-                        <div class="form-group">
-                            <label for="preferred_date">Preferred Visit Date</label>
-                            <input type="date" id="preferred_date" name="preferred_date" required>
-                        </div>
-                        <div class="form-group">
-                            <label for="preferred_time">Preferred Time</label>
-                            <select id="preferred_time" name="preferred_time" required>
-                                <option value="">Select Time</option>
-                                <option value="10:00 AM">10:00 AM</option>
-                                <option value="11:00 AM">11:00 AM</option>
-                                <option value="12:00 PM">12:00 PM</option>
-                                <option value="2:00 PM">2:00 PM</option>
-                                <option value="3:00 PM">3:00 PM</option>
-                                <option value="4:00 PM">4:00 PM</option>
-                                <option value="5:00 PM">5:00 PM</option>
-                            </select>
-                        </div>
-                        <div class="form-group">
-                            <button type="submit" class="submit-btn">Schedule Visit</button>
-                        </div>
-                    </form>
+                <div class="donation-right">
+                    <div class="form-panel">
+                        <h3><i class="far fa-calendar-alt"></i> Schedule a Visit</h3>
+                        <form id="visitForm" action="process_visit.php" method="POST">
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label for="name"><i class="fas fa-user"></i> Your Name</label>
+                                    <input type="text" id="name" name="name" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="email"><i class="fas fa-envelope"></i> Your Email</label>
+                                    <input type="email" id="email" name="email" required>
+                                </div>
+                            </div>
+
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label for="phone"><i class="fas fa-phone"></i> Phone Number</label>
+                                    <input type="tel" id="phone" name="phone" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="preferred_date"><i class="fas fa-calendar"></i> Preferred Visit Date</label>
+                                    <input type="date" id="preferred_date" name="preferred_date" required>
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="preferred_time"><i class="far fa-clock"></i> Preferred Time</label>
+                                <select id="preferred_time" name="preferred_time" required>
+                                    <option value="">Select Time</option>
+                                    <option value="10:00 AM">10:00 AM</option>
+                                    <option value="11:00 AM">11:00 AM</option>
+                                    <option value="12:00 PM">12:00 PM</option>
+                                    <option value="2:00 PM">2:00 PM</option>
+                                    <option value="3:00 PM">3:00 PM</option>
+                                    <option value="4:00 PM">4:00 PM</option>
+                                    <option value="5:00 PM">5:00 PM</option>
+                                </select>
+                            </div>
+
+                            <button type="submit" class="submit-btn">
+                                <i class="fas fa-calendar-check"></i> Schedule Visit
+                            </button>
+                        </form>
+                    </div>
                 </div>
             </div>
         </div>
