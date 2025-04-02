@@ -2878,39 +2878,39 @@ html {
 
 /* Remove or update these classes if you're using background images */
 .education-img {
-    background-image: url('../images/education.jpg');
+    background-image: url('Images/education.jpg');
 }
 
 .healthcare-img {
-    background-image: url('../images/agriculture.jpg');
+    background-image: url('Images/agriculture.jpg');
 }
 
 .environment-img {
-    background-image: url('../images/enivorment.jpg');
+    background-image: url('Images/enivorment.jpg');
 }
 
 .women-img {
-    background-image: url('../images/women.jpg');
+    background-image: url('Images/women.jpg');
 }
 
 .food-img {
-    background-image: url('../images/food.jpg');
+    background-image: url('Images/food.jpg');
 }
 
 .skill-img {
-    background-image: url('../images/skill.jpg');
+    background-image: url('Images/skill.jpg');
 }
 
 .community-img {
-    background-image: url('../images/community.jpg');
+    background-image: url('Images/community.jpg');
 }
 
 .urban-img {
-    background-image: url('../images/poverty.jpg');
+    background-image: url('Images/poverty.jpg');
 }
 
 .agriculture-img {
-    background-image: url('../images/agriculture.jpg');
+    background-image: url('Images/agriculture.jpg');
 }
 
 /* Side-by-Side Layout */
