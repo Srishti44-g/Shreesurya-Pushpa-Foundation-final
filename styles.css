@@ -92,7 +92,7 @@
       background-color: #f8f9fa;
       border-top: 1px solid #eee;
       padding: 5px 0;
-      position: relative;
+      position: fixed;
     }
     
     .navbar {
@@ -100,7 +100,7 @@
       justify-content: space-between;
       align-items: center;
       padding: 10px 20px;
-      position: relative;
+      position: fixed;
       width: 100%;
     }
     
