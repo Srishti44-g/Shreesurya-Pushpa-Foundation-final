@@ -9,8 +9,8 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <!-- Header -->
     <header>
+        <!-- Same header as donate.html -->
         <div class="top-header">
             <div class="container">
                 <div class="logo">
@@ -22,313 +22,202 @@
                 </div>
             </div>
         </div>
-        <div class="main-nav">
-            <div class="container">
-                <nav class="navbar">
-                    <ul class="nav-links">
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="index.html#about">About</a></li>
-                        <li><a href="index.html#approval-letters">Approvals</a></li>
-                        <li><a href="index.html#programs">Programs</a></li>
-                        <li><a href="index.html#impact">Impact</a></li>
-                        <li><a href="index.html#gallery">Gallery</a></li>
-                        <li><a href="index.html#contact">Contact</a></li>
-                        <li><a href="volunteer.html" class="active">Volunteer</a></li>
-                        <li><a href="donate.html" class="donate-btn">Donate</a></li>
-                    </ul>
-                    <div class="hamburger" id="hamburger">
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                </nav>
+        <nav class="main-nav">
+            <div class="navbar">
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="index.html#about">About</a></li>
+                    <li><a href="index.html#approval-letters">Approvals</a></li>
+                    <li><a href="index.html#programs">Programs</a></li>
+                    <li><a href="index.html#impact">Impact</a></li>
+                    <li><a href="index.html#gallery">Gallery</a></li>
+                    <li><a href="index.html#contact">Contact</a></li>
+                    <li><a href="volunteer.html" class="active">Volunteer</a></li>
+                    <li><a href="donate.html" class="donate-btn">Donate</a></li>
+                </ul>
             </div>
-        </div>
+        </nav>
     </header>
 
     <section class="volunteer-section">
         <div class="container">
-            <h1 class="section-title">Become a Volunteer</h1>
-            <p class="section-desc">Join us in making a difference in our community</p>
+            <h2 class="section-title">Join Our Volunteer Team</h2>
+            <p class="section-desc">Make a difference in your community by volunteering with us</p>
 
-            <div class="volunteer-container">
-                <div class="volunteer-info">
-                    <h2>Why Volunteer With Us?</h2>
-                    <ul class="volunteer-benefits">
-                        <li>Make a real impact in your community</li>
-                        <li>Gain valuable experience and skills</li>
-                        <li>Meet like-minded people</li>
-                        <li>Be part of meaningful projects</li>
-                    </ul>
+            <div class="donation-container">
+                <div class="donation-left">
+                    <div class="info-panel">
+                        <h3>Volunteer Opportunities</h3>
+                        <div class="info-box">
+                            <div class="info-item">
+                                <i class="fas fa-hands-helping"></i>
+                                <div>
+                                    <strong>Available Roles:</strong>
+                                    <ul>
+                                        <li>Community Outreach</li>
+                                        <li>Education Support</li>
+                                        <li>Healthcare Assistance</li>
+                                        <li>Event Organization</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            
+                            <div class="info-item">
+                                <i class="fas fa-clock"></i>
+                                <div>
+                                    <strong>Time Commitment:</strong>
+                                    <p>Flexible hours available<br>Weekend opportunities</p>
+                                </div>
+                            </div>
+                            
+                            <div class="info-item">
+                                <i class="fas fa-map-marked-alt"></i>
+                                <div>
+                                    <strong>Location:</strong>
+                                    <p>Sarju Bagicha Masanganj<br>Bilaspur, Chhattisgarh 495001</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="contribution-guidelines">
+                            <h4><i class="fas fa-clipboard-list"></i> Volunteer Requirements:</h4>
+                            <ul>
+                                <li><i class="fas fa-check"></i> Must be 18 years or older</li>
+                                <li><i class="fas fa-check"></i> Valid ID proof required</li>
+                                <li><i class="fas fa-check"></i> Commitment of at least 4 hours per week</li>
+                                <li><i class="fas fa-check"></i> Attend orientation session</li>
+                            </ul>
+                        </div>
+
+                        <div class="benefits-info">
+                            <h4><i class="fas fa-gift"></i> Benefits</h4>
+                            <p>Gain valuable experience, networking opportunities, and the satisfaction of making a real difference in your community.</p>
+                        </div>
+                    </div>
                 </div>
 
-                <form class="volunteer-form" id="volunteerForm">
-                    <div class="form-group">
-                        <label for="fullName">Full Name*</label>
-                        <input type="text" id="fullName" required>
-                    </div>
-                    <div class="form-group">
-                        <label for="email">Email*</label>
-                        <input type="email" id="email" required>
-                    </div>
-                    <div class="form-group">
-                        <label for="phone">Phone Number*</label>
-                        <input type="tel" id="phone" required>
-                    </div>
-                    <div class="form-group">
-                        <label for="age">Age*</label>
-                        <input type="number" id="age" required min="18">
-                    </div>
-                    <div class="form-group interest-section">
-                        <label for="interests">Areas of Interest*</label>
-                        <div class="interest-grid">
-                            <div class="interest-item">
-                                <input type="checkbox" id="education" name="interests[]" value="education">
-                                <label for="education">
-                                    <i class="interest-icon">📚</i>
-                                    <span>Education</span>
-                                </label>
-                            </div>
-                            <div class="interest-item">
-                                <input type="checkbox" id="healthcare" name="interests[]" value="healthcare">
-                                <label for="healthcare">
-                                    <i class="interest-icon">🏥</i>
-                                    <span>Healthcare</span>
-                                </label>
-                            </div>
-                            <div class="interest-item">
-                                <input type="checkbox" id="environment" name="interests[]" value="environment">
-                                <label for="environment">
-                                    <i class="interest-icon">🌱</i>
-                                    <span>Environment</span>
-                                </label>
-                            </div>
-                            <div class="interest-item">
-                                <input type="checkbox" id="women" name="interests[]" value="women">
-                                <label for="women">
-                                    <i class="interest-icon">👥</i>
-                                    <span>Women Empowerment</span>
-                                </label>
-                            </div>
-                            <div class="interest-item">
-                                <input type="checkbox" id="food" name="interests[]" value="food">
-                                <label for="food">
-                                    <i class="interest-icon">🍲</i>
-                                    <span>Food & Shelter</span>
-                                </label>
-                            </div>
-                            <div class="interest-item">
-                                <input type="checkbox" id="skill" name="interests[]" value="skill">
-                                <label for="skill">
-                                    <i class="interest-icon">💡</i>
-                                    <span>Skill Development</span>
-                                </label>
-                            </div>
-                            <div class="interest-item">
-                                <input type="checkbox" id="community" name="interests[]" value="community">
-                                <label for="community">
-                                    <i class="interest-icon">🤝</i>
-                                    <span>Community Service</span>
-                                </label>
-                            </div>
-                            <div class="interest-item">
-                                <input type="checkbox" id="agriculture" name="interests[]" value="agriculture">
-                                <label for="agriculture">
-                                    <i class="interest-icon">🌾</i>
-                                    <span>Agriculture</span>
-                                </label>
-                            </div>
-                        </div>
-                        <span class="interest-hint">Select all that apply</span>
-                    </div>
-                    <div class="form-group">
-                        <label for="availability">Availability*</label>
-                        <select id="availability" required>
-                            <option value="">Select Availability</option>
-                            <option value="weekdays">Weekdays</option>
-                            <option value="weekends">Weekends</option>
-                            <option value="both">Both</option>
-                        </select>
-                    </div>
-                    <div class="form-group">
-                        <label for="message">Why do you want to volunteer?*</label>
-                        <textarea id="message" required rows="4"></textarea>
-                    </div>
-
-                    <!-- Availability Section -->
-                    <div class="form-section">
-                        <h3>Availability</h3>
-                        <div class="availability-grid">
-                            <div class="time-slots">
-                                <h4>Preferred Time Slots</h4>
-                                <div class="slot-options">
-                                    <label class="slot-checkbox">
-                                        <input type="checkbox" name="timeSlot" value="morning">
-                                        <span class="slot-text">Morning (9 AM - 12 PM)</span>
-                                    </label>
-                                    <label class="slot-checkbox">
-                                        <input type="checkbox" name="timeSlot" value="afternoon">
-                                        <span class="slot-text">Afternoon (12 PM - 4 PM)</span>
-                                    </label>
-                                    <label class="slot-checkbox">
-                                        <input type="checkbox" name="timeSlot" value="evening">
-                                        <span class="slot-text">Evening (4 PM - 7 PM)</span>
-                                    </label>
+                <div class="donation-right">
+                    <div class="form-panel">
+                        <h3><i class="fas fa-user-plus"></i> Volunteer Registration</h3>
+                        <form id="volunteerForm" action="process_volunteer.php" method="POST">
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label for="name"><i class="fas fa-user"></i> Full Name</label>
+                                    <input type="text" id="name" name="name" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="email"><i class="fas fa-envelope"></i> Email Address</label>
+                                    <input type="email" id="email" name="email" required>
                                 </div>
                             </div>
 
-                            <div class="days-available">
-                                <h4>Days Available</h4>
-                                <div class="weekday-selector">
-                                    <label class="day-checkbox">
-                                        <input type="checkbox" name="day" value="monday">
-                                        <span class="day-text">Monday</span>
-                                    </label>
-                                    <label class="day-checkbox">
-                                        <input type="checkbox" name="day" value="tuesday">
-                                        <span class="day-text">Tuesday</span>
-                                    </label>
-                                    <label class="day-checkbox">
-                                        <input type="checkbox" name="day" value="wednesday">
-                                        <span class="day-text">Wednesday</span>
-                                    </label>
-                                    <label class="day-checkbox">
-                                        <input type="checkbox" name="day" value="thursday">
-                                        <span class="day-text">Thursday</span>
-                                    </label>
-                                    <label class="day-checkbox">
-                                        <input type="checkbox" name="day" value="friday">
-                                        <span class="day-text">Friday</span>
-                                    </label>
-                                    <label class="day-checkbox">
-                                        <input type="checkbox" name="day" value="saturday">
-                                        <span class="day-text">Saturday</span>
-                                    </label>
-                                    <label class="day-checkbox">
-                                        <input type="checkbox" name="day" value="sunday">
-                                        <span class="day-text">Sunday</span>
-                                    </label>
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label for="phone"><i class="fas fa-phone"></i> Phone Number</label>
+                                    <input type="tel" id="phone" name="phone" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="area"><i class="fas fa-briefcase"></i> Area of Interest</label>
+                                    <select id="area" name="area" required>
+                                        <option value="">Select Area</option>
+                                        <option value="community">Community Outreach</option>
+                                        <option value="education">Education Support</option>
+                                        <option value="healthcare">Healthcare Assistance</option>
+                                        <option value="events">Event Organization</option>
+                                    </select>
                                 </div>
                             </div>
 
-                            <div class="commitment-period">
-                                <h4>Commitment Period</h4>
-                                <select name="commitment" class="commitment-select">
-                                    <option value="">Select commitment period</option>
-                                    <option value="1-month">1 Month</option>
-                                    <option value="3-months">3 Months</option>
-                                    <option value="6-months">6 Months</option>
-                                    <option value="1-year">1 Year</option>
-                                    <option value="ongoing">Ongoing</option>
+                            <div class="form-group">
+                                <label for="availability"><i class="fas fa-calendar"></i> Availability</label>
+                                <select id="availability" name="availability" required>
+                                    <option value="">Select Availability</option>
+                                    <option value="weekdays">Weekdays</option>
+                                    <option value="weekends">Weekends</option>
+                                    <option value="both">Both</option>
                                 </select>
                             </div>
-                        </div>
-                    </div>
 
-                    <button type="submit" class="submit-btn">Submit Application</button>
-                </form>
+                            <div class="form-group">
+                                <label for="message"><i class="fas fa-comment"></i> Why do you want to volunteer?</label>
+                                <textarea id="message" name="message" rows="4" required></textarea>
+                            </div>
+
+                            <button type="submit" class="submit-btn">
+                                <i class="fas fa-paper-plane"></i> Submit Application
+                            </button>
+                        </form>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
 
-   <footer>
-    <div class="container">
-      <div class="footer-content">
-        <div class="footer-column">
-          <h3>Shreesurya Pushpa Foundation</h3>
-          <p>Empowering Lives, Enriching Communities through sustainable development initiatives. Together, we can make a difference in the lives of those who need it most.</p>
-          <div class="social-icons">
-            <a href="https://facebook.com/your-page" title="Facebook" class="social-icon">
-              <i class="fab fa-facebook-f"></i>
-            </a>
-            <a href="https://twitter.com/your-handle" title="Twitter" class="social-icon">
-              <i class="fab fa-twitter"></i>
-            </a>
-            <a href="https://instagram.com/your-profile" title="Instagram" class="social-icon">
-              <i class="fab fa-instagram"></i>
-            </a>
-            <a href="https://linkedin.com/company/your-company" title="LinkedIn" class="social-icon">
-              <i class="fab fa-linkedin-in"></i>
-            </a>
-            <a href="https://youtube.com/your-channel" title="YouTube" class="social-icon">
-              <i class="fab fa-youtube"></i>
-            </a>
-          </div>
-        </div>
-        
-        <div class="footer-column">
-          <h3>Quick Links</h3>
-          <ul class="footer-links">
-            <li><a href="#home">Home</a></li>
-            <li><a href="#about">About Us</a></li>
-            <li><a href="#programs">Our Programs</a></li>
-            <li><a href="#impact">Impact</a></li>
-            <li><a href="#gallery">Gallery</a></li>
-            <li><a href="#contact">Contact</a></li>
-          </ul>
-        </div>
-        
-        <div class="footer-column">
-          <h3>Our Programs</h3>
-          <ul class="footer-links">
-            <li><a href="#">Agriculture & Farming</a></li>
-            <li><a href="#">Education & Literacy</a></li>
-            <li><a href="#">Healthcare Initiatives</a></li>
-            <li><a href="#">Environmental Projects</a></li>
-            <li><a href="#">Women Empowerment</a></li>
-            <li><a href="#">Skill Development</a></li>
-          </ul>
-        </div>
-        
-        <div class="footer-column">
-          <h3>Contact Info</h3>
-          <ul class="footer-links">
-            <li>📍 Sarju Bagicha Masanganj, Bilaspur, Chhattisgarh 495001</li>
-            <li>📞 +91 94061 30259</li>
-            <li>✉️ info@shreesurya.org</li>
-          </ul>
-        </div>
-      </div>
-      
-      <div class="copyright">
-        <p>&copy; 2025 Shreesurya Pushpa Foundation. All Rights Reserved. | Designed with 💖 for social impact</p>
-      </div>
-    </div>
-  </footer>
-
-<script src="script.js"></script>
-    <script>
-        document.getElementById('volunteerForm').addEventListener('submit', function(e) {
-            e.preventDefault();
+    <footer>
+        <!-- Same footer as donate.html -->
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <h3>Shreesurya Pushpa Foundation</h3>
+                    <p>Empowering Lives, Enriching Communities through sustainable development initiatives. Together, we can make a difference in the lives of those who need it most.</p>
+                    <div class="social-icons">
+                        <a href="https://facebook.com/your-page" title="Facebook" class="social-icon">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="https://twitter.com/your-handle" title="Twitter" class="social-icon">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="https://instagram.com/your-profile" title="Instagram" class="social-icon">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="https://linkedin.com/company/your-company" title="LinkedIn" class="social-icon">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                        <a href="https://youtube.com/your-channel" title="YouTube" class="social-icon">
+                            <i class="fab fa-youtube"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="footer-column">
+                    <h3>Quick Links</h3>
+                    <ul class="footer-links">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#programs">Our Programs</a></li>
+                        <li><a href="#impact">Impact</a></li>
+                        <li><a href="#gallery">Gallery</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-column">
+                    <h3>Our Programs</h3>
+                    <ul class="footer-links">
+                        <li><a href="#">Agriculture & Farming</a></li>
+                        <li><a href="#">Education & Literacy</a></li>
+                        <li><a href="#">Healthcare Initiatives</a></li>
+                        <li><a href="#">Environmental Projects</a></li>
+                        <li><a href="#">Women Empowerment</a></li>
+                        <li><a href="#">Skill Development</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-column">
+                    <h3>Contact Info</h3>
+                    <ul class="footer-links">
+                        <li>📍 Sarju Bagicha Masanganj, Bilaspur, Chhattisgarh 495001</li>
+                        <li>📞 +91 94061 30259</li>
+                        <li>✉️ info@shreesurya.org</li>
+                    </ul>
+                </div>
+            </div>
             
-            const formData = new FormData(this);
-            
-            // Show loading state
-            const submitBtn = this.querySelector('.submit-btn');
-            submitBtn.textContent = 'Submitting...';
-            submitBtn.disabled = true;
-
-            fetch('process_volunteer.php', {
-                method: 'POST',
-                body: formData
-            })
-            .then(response => response.json())
-            .then(data => {
-                if (data.status === 'success') {
-                    alert(data.message);
-                    this.reset();
-                } else {
-                    alert(data.message);
-                }
-            })
-            .catch(error => {
-                alert('An error occurred. Please try again later.');
-                console.error('Error:', error);
-            })
-            .finally(() => {
-                submitBtn.textContent = 'Submit Application';
-                submitBtn.disabled = false;
-            });
-        });
-    </script>
+            <div class="copyright">
+                <p>&copy; 2025 Shreesurya Pushpa Foundation. All Rights Reserved. | Designed with 💖 for social impact</p>
+            </div>
+        </div>
+    </footer>
+    <script src="script.js"></script>
 </body>
 </html>
